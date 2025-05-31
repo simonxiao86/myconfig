@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\PotPlayer]
+"URL Protocol"="D:\\software\\PotPlayer\\PotPlayerMini64.exe"
+@="PotPlayer Protocol"
+
+[HKEY_CLASSES_ROOT\PotPlayer\DefaultIcon]
+@="D:\\software\\PotPlayer\\PotPlayerMini64.exe,1"
+
+[HKEY_CLASSES_ROOT\PotPlayer\shell]  
+
+[HKEY_CLASSES_ROOT\PotPlayer\shell\open]
+
+[HKEY_CLASSES_ROOT\PotPlayer\shell\open\command]  
+@="\"D:\\software\\PotPlayer\\PotPlayerMini64.exe\" \"%1\""
